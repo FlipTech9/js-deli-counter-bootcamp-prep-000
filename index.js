@@ -17,7 +17,7 @@ function currentLine(currentLine){
   }
   const lineNumberName = []
   for (let i = 0, l = currentLine.length; i < l; i++){
-    lineNumberName.push(`${i+l}. ${line[i]}`)
+    lineNumberName.push(`${i+l}. ${currentLine[i]}`)
   }
   return `The line is currently: ${lineNumberName.join(',  ')}`
 }
