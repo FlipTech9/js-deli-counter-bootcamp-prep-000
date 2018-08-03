@@ -8,7 +8,8 @@ function currentLine(currentLine){
     return "The line is currently empty"
   }
 }
-const lineNumberName
+  const lineNumberName = []
+  for (let i =0; 1 = currentLine.length; )
 function currentLine(line) {
 if (!line.length) {
 return "The line is currently empty."
