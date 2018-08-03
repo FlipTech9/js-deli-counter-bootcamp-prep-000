@@ -2,14 +2,6 @@ function deli (){
   
 }
 
-
-function nowServing (currentLine){
-  if (!currentLine.length){
-    return "There is nobody wating to be served!"
-  }
-    return `Currently serving ${currentLine.shift()}.`
-}
-
 function currentLine(currentLine){
   if (!currentLine.length){
     return "The line is currently empty."
@@ -20,6 +12,15 @@ function currentLine(currentLine){
   }
   return `The line is currently: ${lineNumberName.join(',  ')}`
 }
+
+function nowServing (currentLine){
+  if (!currentLine.length){
+    return "There is nobody wating to be served!"
+  }
+    return `Currently serving ${currentLine.shift()}.`
+}
+
+
 
 function takeANumber (currentLine, name){
     currentLine.push(name)
