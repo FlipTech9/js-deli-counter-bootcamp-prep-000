@@ -6,6 +6,13 @@ function takeANumber (currentLine, name){
     return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
+function nowServing (currentLine){
+  if (!currentLine.length){
+    return "There is nobody wating to be served!"
+  }
+    return `Currently serving ${currentLine.shift()}.`
+}
+
 function currentLine(currentLine){
   if (!currentLine.length){
     return "The line is currently empty."
@@ -17,12 +24,6 @@ function currentLine(currentLine){
   return `The line is currently: ${lineNumberName.join(',  ')}`
 }
 
-function nowServing (currentLine){
-  if (!currentLine.length){
-    return "There is nobody wating to be served!"
-  }
-    return `Currently serving ${currentLine.shift()}.`
-}
 
 
 
