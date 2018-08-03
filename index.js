@@ -8,7 +8,7 @@ function currentLine(currentLine){
     return "The line is currently empty."
   }
   const lineNumberName = []
-  for (let i = 0; 1 = currentLine.length;i < 1; i++){
+  for (let i = 0; 1 = currentLine.length; i < 1; i++){
     lineNumberName.push(`${i+1}. ${currentLine[i]}`)
   }
   return `The line is currently: ${lineNumberName.join(',  ')}`
