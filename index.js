@@ -22,7 +22,7 @@ function currentLine(currentLine){
   return `The line is currently: ${lineNumberName.join(', ')}`
 }
 
-function currentLine(line) {
+/*function currentLine(line) {
   if (!line.length) {
   return "The line is currently empty."
   }
@@ -31,7 +31,7 @@ function currentLine(line) {
   numbersAndNames.push(`${i + 1}. ${line[i]}`)
   }
   return `The line is currently: ${numbersAndNames.join(', ')}`
-}
+}*/
 
 
 
