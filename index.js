@@ -3,6 +3,12 @@ function takeANumber (currentLine, name){
     return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
+function currentLine(currentLine){
+  if(!currentLine.length){
+    return "The line is currently empty"
+  }
+}
+const lineNumberName
 function currentLine(line) {
 if (!line.length) {
 return "The line is currently empty."
