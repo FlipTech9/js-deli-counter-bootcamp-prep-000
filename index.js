@@ -11,8 +11,8 @@ return `Currently serving ${line.shift()}.`
 
 }
 
-function currentLine(currentLine){
-  if (!currentLine.length){
+function currentLine(line){
+  if (!line.length){
     return "The line is currently empty."
   }
   const lineNumberName = []
