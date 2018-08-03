@@ -9,9 +9,7 @@ function currentLine(currentLine){
   }
 }
   const lineNumberName = []
-  for(let i = 0; l = currentLine.length; i < l; i++){
-    
-  }//for (let i = 0, l = currentLine.length; i < l; i++)
+  for (let i = 0, l = currentLine.length; i < l; i++)
 function currentLine(line) {
 if (!line.length) {
 return "The line is currently empty."
