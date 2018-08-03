@@ -1,9 +1,9 @@
 function takeANumber (currentLine, name){
     currentLine.push(name)
-    return `Welcome, ${name}. You are number ${line.length} in line.`
+    return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
-function nowServing(line) {
+function nowServing(currentLine) {
 if (!line.length) {
 return "There is nobody waiting to be served!"
 }
