@@ -22,5 +22,6 @@ function currentLine(currentLine){
 }
 
 function deli (){
-  
+  var katzDeliLine = []
+  var otherDeli = []
 }
