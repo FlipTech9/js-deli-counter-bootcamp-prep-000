@@ -1,10 +1,7 @@
 function deli (){
   
 }
-function takeANumber (currentLine, name){
-    currentLine.push(name)
-    return `Welcome, ${name}. You are number ${currentLine.length} in line.`
-}
+
 
 function nowServing (currentLine){
   if (!currentLine.length){
@@ -24,3 +21,7 @@ function currentLine(currentLine){
   return `The line is currently: ${lineNumberName.join(',  ')}`
 }
 
+function takeANumber (currentLine, name){
+    currentLine.push(name)
+    return `Welcome, ${name}. You are number ${currentLine.length} in line.`
+}
