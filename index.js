@@ -10,13 +10,13 @@ function nowServing (currentLine){
     return `Currently serving ${currentLine.shift()}.`
 }
 
-function currentLine(line){
-  if (!line.length){
+function currentLine(currentLine){
+  if (!currentLine.length){
     return "The line is currently empty."
   }
   const lineNumberName = []
-  for (let i = 0; i < line.length; i++){
-    lineNumberName.push(`${i+1}. ${line[i]}`)
+  for (let i = 0; i < currentLine.length; i++){
+    lineNumberName.push(`${i+1}. ${currentLine[i]}`)
   }
   return `The line is currently: ${lineNumberName.join(',  ')}`
 }
