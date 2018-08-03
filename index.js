@@ -3,15 +3,16 @@ function takeANumber (currentLine, name){
     return `Welcome, ${name}. You are number ${currentLine.length} in line.`
 }
 
-function currentLine(currentLine){
-  if (!currentLine.length){
-    return "The line is currently empty."
-  }
-  const lineNumberName = []
-  for (let i = 0; 1 = currentLine.length; i < 1; i++){
-    lineNumberName.push(`${i+1}. ${currentLine[i]}`)
-  }
-  return `The line is currently: ${lineNumberName.join(',  ')}`
+function currentLine(line) {
+if (!line.length) {
+return "The line is currently empty."
+}
+const numbersAndNames = []
+for (let i = 0, l = line.length; i < l; i++) {
+numbersAndNames.push(`${i + 1}. ${line[i]}`)
+}
+return `The line is currently: ${numbersAndNames.join(', ')}`
+
 }
 
 
